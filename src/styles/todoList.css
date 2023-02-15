@@ -1,0 +1,277 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/***** TOP OF PAGE  *******/
+.top {
+  margin: 0px auto;
+  margin-top: 26.5px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cloud {
+  width: 36px;
+  height: 24.75;
+  margin-left: 40px;
+  margin-right: 0px;
+}
+
+.checkbox {
+  position: relative;
+  left: -25px;
+  top: 3px;
+  width: 12.38px;
+  height: 9px;
+}
+
+.top > p {
+  width: 75px;
+  height: 27px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #884cb2;
+  margin-left: 18px;
+  margin-right: 41.5px;
+}
+
+.lupa {
+  margin-right: 14.92px;
+}
+
+.search {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.6);
+  width: 199px;
+  height: 15px;
+  background-color: #24272c;
+  border: none;
+  text-indent: 10px;
+}
+
+.round {
+  width: 32px;
+  height: 32px;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #fd648e 0deg,
+    #884cb2 178.12deg,
+    #fd648e 360deg
+  );
+  backdrop-filter: blur(15px);
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 36.22px;
+}
+
+.bell,
+.dot {
+  position: absolute;
+  right: 109px;
+}
+
+.dot {
+  border: 4px solid #f7685b;
+  border-radius: 50%;
+  top: 37px;
+}
+
+.roundImage {
+  border-radius: 50%;
+}
+
+/***** TOP OF PAGE *******/
+
+/**** MIDDE OF PAGE ******/
+.adding-tasks {
+  width: 100%;
+  margin-top: 62px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 54px;
+  color: #ffffff;
+}
+.adding-tasks > h1 {
+  width: 474px;
+  height: 54px;
+  font-family: 'Poppins';
+}
+
+.adding-tasks > h1 span {
+  color: #884cb2;
+}
+
+.select {
+  position: relative;
+  right: 50px;
+  width: 220px;
+  height: 40px;
+  background: #ffffff;
+  border: 0.3px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  border-radius: 8px;
+  margin-right: 24px;
+  text-indent: 10px;
+}
+
+.add-btn {
+  position: relative;
+  right: 50px;
+  background: #884cb2;
+  border-radius: 10px;
+  width: 139px;
+  height: 34px;
+  color: white;
+  border: #884cb2;
+}
+
+.alone {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: 40px;
+  margin-top: 16px;
+}
+/**** MIDDE OF PAGE ******/
+
+/* *********** TASK LIST ********/
+.tasksList {
+  margin-left: 40px;
+  margin-top: 38px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 2px solid red;
+  max-height: 600px;
+}
+/* *********** TASK LIST ********/
+
+/********  TASK ITEM ******/
+.task-item {
+  width: 407px;
+  background: #ffffff;
+  border: 0.3px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.img-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.round-content {
+  width: 68px;
+  height: 68px;
+
+  margin-left: 18px;
+  margin-top: 16px;
+  background: black;
+  border-radius: 50%;
+}
+
+.content {
+  margin-top: 16px;
+  width: 308px;
+  border: 2px solid blue;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.data-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 18px;
+  margin-right: 15px;
+  margin-bottom: 18px;
+  margin-top: 8px;
+}
+
+/********  TASK ITEM ******/
+
+/******** TODO INFO CONTENT ********/
+.container {
+  width: 100%;
+  margin-top: 70px;
+  padding-left: 40px;
+}
+
+.images-info {
+  width: 920px;
+  height: 200px;
+  background: #ffffff;
+  border: 0.3px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.content-info {
+  width: 100%;
+  height: 379px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 48px 32px;
+  gap: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.content-info > p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.content-info > h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 27px;
+  line-height: 20px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0.2;hello
+}
+/******** TODO INFO CONTENT ********/
