@@ -288,14 +288,14 @@
   font-weight: 600;
 }
 
-.data-button > button {
+/* .data-button > button {
   width: 77px;
   height: 17px;
   background: #10f126;
   border: 2px solid #10f126;
-  opacity: 0.2;
+  opacity: 0.7;
   border-radius: 8.5px;
-}
+} */
 
 .data-button > img {
   position: relative;

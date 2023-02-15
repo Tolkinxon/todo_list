@@ -5,6 +5,7 @@ import apple from '../images/apple 1.svg'
 import cloud from '../images/Vector (1).svg'
 import checkbox from '../images/Vector (2).svg'
 
+
 const SignUp = () => {
   return (
     <>
