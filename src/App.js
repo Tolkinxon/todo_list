@@ -5,6 +5,7 @@ import SignIn from './pages/SignIn'
 import TodoList from './pages/TodoList'
 import NotFound from './pages/NotFound'
 import TodoInfo from './pages/TodoInfo'
+import NewTodo from './pages/NewTodo'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         {/* <SignUp /> */}
         {/* <SignIn /> */}
         {/* <TodoList /> */}
-        <TodoInfo />
+        {/* <TodoInfo /> */}
+        <NewTodo />
       </Layout>
     </div>
   )
