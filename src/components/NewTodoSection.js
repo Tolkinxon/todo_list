@@ -5,7 +5,6 @@ import middleSvg from '../images/send/Vector (5).svg'
 import topSvg from '../images/send/Vector (6).svg'
 import Navbar from '../components/Navbar'
 
-
 const NewTodoSection = () => {
   return (
     <div className="new-todo-section">
@@ -21,16 +20,26 @@ const NewTodoSection = () => {
         </div>
       </div>
 
-
       <div className="post-text">
-        <Navbar/>
-          <div className="wrapper">
-            <h4>This is very usefull</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque pariatur modi totam et delectus. Aut quo reprehenderit, itaque, rem iste soluta quos numquam neque sunt nam vitae voluptas maxime illum.
-            </p>
-          </div>
+        <Navbar />
+        <div className="wrapper">
+          <h4>This is very usefull</h4>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
+            pariatur modi totam et delectus. Aut quo reprehenderit, itaque, rem
+            iste soluta quos numquam neque sunt nam vitae voluptas maxime lor
+            sit amet consectetur adipisicing elit. Itaque pariatur modi totam et
+            delectus. Aut quo reprehenderit, itaque, rem iste soluta quos
+            numquam neque sunt nam vitae voluptas maximeillum. Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Itaque pariatur modi
+            totam et delectus. Aut quo reprehenderit, itaque, rem iste soluta
+            quos numquam neque sunt nam vitae voluptas maxime lor sit amet
+            consectetur adipisicing elit. Itaque pariatur modi totam et
+            delectus. Aut quo reprehenderit, itaque, rem iste soluta quos
+            numquam neque sunt nam vitae voluptas maximeillum.
+          </p>
+        </div>
       </div>
-
     </div>
   )
 }

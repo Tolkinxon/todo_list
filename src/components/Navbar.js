@@ -42,8 +42,6 @@ const Navbar = () => {
         <img src={rightArrow} alt="plus" />
         <img src={threeDot} alt="plus" />
       </div>
-
-
     </div>
   )
 }

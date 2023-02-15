@@ -7,7 +7,7 @@ const TodoList = ({ img }) => {
   return (
     <div >
       <TopPage />
-      <MiddlPage />
+      <MiddlPage data={true} />
       <TaskList />
     </div>
   )

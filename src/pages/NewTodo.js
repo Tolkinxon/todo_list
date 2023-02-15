@@ -7,7 +7,7 @@ const NewTodo = () => {
   return (
     <>
       <TopPage />
-      <MiddlPage />
+      <MiddlPage data={false} />
       <NewTodoSection/>
     </>
   )

@@ -1,22 +1,49 @@
 import React from 'react'
+import select from '../images/select.svg'
+import square from '../images/square.svg'
 
-const MiddlPage = () => {
+const MiddlPage = ({ data }) => {
   return (
     <>
       <div className="adding-tasks">
-        <h1>
-        You've got <span>8 task </span> today
-        </h1>
+        {data ? (
+          <h1>
+            You've got <span>8 task </span> today{' '}
+          </h1>
+        ) : (
+          <h1>
+            Create a new <span style={{ color: '#F3477A' }}>task</span>{' '}
+          </h1>
+        )}
         <div className="adding-field">
-        <select name="task" id="1" className="select">
-            <option value="">Your task today</option>
-            <option value="">---</option>
-        </select>
-        <button className="add-btn">+ Add new</button>
+
+        { data ? 
+         <div className="select">
+            <div>
+              <p> Your task today</p>
+              <img src={select} alt="select" className="select2" />
+            </div>
+          </div>:
+
+        
+            <div className="select">
+              <div>
+                <p> Sabrina</p>
+              </div>
+            </div>
+            }
+
+
+
+
+
+          <button className="add-btn">
+            <img src={square} alt="square"  className='square'/> + &nbsp; Add new
+          </button>
         </div>
-    </div>
-    <h1 className='alone'>Your task today</h1>
-  </>
+      </div>
+      {data && <h1 className="alone">Your task today</h1>}
+    </>
   )
 }
 

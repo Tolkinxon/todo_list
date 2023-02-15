@@ -10,6 +10,7 @@
   padding-left: 40px;
   padding-right: 40px;
   height: 1000px;
+  margin-top: 17px;
 }
 
 .post-image {
@@ -70,7 +71,7 @@
 /******** BELOW SIDE *******/
 .post-text {
   margin-top: 20px;
-  border-radius: 5px;
+  border-radius: 8px;
   height: 435px;
   width: 100%;
   background: #fff;
@@ -116,5 +117,34 @@
 .navbar > div:nth-child(4) {
   padding: 20px 21.5px 20px 0px;
 }
+.navbar > div:nth-child(4) > img:nth-child(1),
+.navbar > div:nth-child(4) > img:nth-child(2) {
+  opacity: 0.2;
+}
+
+/** SECTION NEW TO DO ******/
+.wrapper {
+  margin: 48px 32px;
+  background: #fff;
+}
+
+.wrapper > p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  overflow: hidden;
+}
+
+.wrapper > h4 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  overflow: hidden;
+}
+/** SECTION NEW TO DO ******/
 
 /******** BELOW SIDE *******/
