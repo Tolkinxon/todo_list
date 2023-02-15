@@ -5,7 +5,7 @@ const MiddlPage = () => {
     <>
       <div className="adding-tasks">
         <h1>
-        You've got <span>7 task </span> today
+        You've got <span>8 task </span> today
         </h1>
         <div className="adding-field">
         <select name="task" id="1" className="select">

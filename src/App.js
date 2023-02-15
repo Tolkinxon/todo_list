@@ -6,16 +6,19 @@ import TodoList from './pages/TodoList'
 import NotFound from './pages/NotFound'
 import TodoInfo from './pages/TodoInfo'
 import NewTodo from './pages/NewTodo'
+import { Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        {/* <SignUp /> */}
-        {/* <SignIn /> */}
-        {/* <TodoList /> */}
-        {/* <TodoInfo /> */}
-        <NewTodo />
+        <Switch>
+              <Route path="/signup" component={SignUp} />
+              <Route path="/signin" component={SignIn} />
+              <Route path="/todo-info" component={TodoInfo} />
+              <Route path="/todo-list" component={TodoList} />
+              <Route path="/new-todo" component={NewTodo} />
+          </Switch>
       </Layout>
     </div>
   )

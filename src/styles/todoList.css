@@ -76,13 +76,13 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 36.22px;
+  right: 56.22px;
 }
 
 .bell,
 .dot {
   position: absolute;
-  right: 109px;
+  right: 129px;
 }
 
 .dot {
@@ -101,7 +101,8 @@
 .adding-tasks {
   width: 100%;
   margin-top: 62px;
-  margin-left: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -123,8 +124,6 @@
 }
 
 .select {
-  position: relative;
-  right: 50px;
   width: 220px;
   height: 40px;
   background: #ffffff;
@@ -137,8 +136,6 @@
 }
 
 .add-btn {
-  position: relative;
-  right: 50px;
   background: #884cb2;
   border-radius: 10px;
   width: 139px;
@@ -161,20 +158,21 @@
 
 /* *********** TASK LIST ********/
 .tasksList {
-  margin-left: 40px;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
   margin-top: 38px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   gap: 20px;
-  border: 2px solid red;
-  max-height: 600px;
+  max-height: 500px;
 }
 /* *********** TASK LIST ********/
 
 /********  TASK ITEM ******/
 .task-item {
-  width: 407px;
+  width: 397px;
   background: #ffffff;
   border: 0.3px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
@@ -191,19 +189,53 @@
 .round-content {
   width: 68px;
   height: 68px;
-
   margin-left: 18px;
   margin-top: 16px;
-  background: black;
   border-radius: 50%;
+  border: 2px solid #3a91c1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+
+.round-content > .image-back {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: url('../images/Rectangle\ 159.png') no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .content {
   margin-top: 16px;
   width: 308px;
-  border: 2px solid blue;
   margin-right: 15px;
   margin-left: 15px;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.content > span:first-child {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 6px;
+  color: black;
+  mix-blend-mode: normal;
+}
+
+.content > span:nth-child(2),
+.content > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
 }
 
 .data-button {
@@ -214,6 +246,46 @@
   margin-right: 15px;
   margin-bottom: 18px;
   margin-top: 8px;
+}
+
+.data-button > span,
+.numbers {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #343c44;
+}
+
+.data-button > span {
+  font-weight: 600;
+}
+
+.data-button > button {
+  width: 77px;
+  height: 17px;
+  background: #10f126;
+  border: 2px solid #10f126;
+  opacity: 0.2;
+  border-radius: 8.5px;
+}
+
+.data-button > img {
+  position: relative;
+  right: -120px;
+}
+
+.data-button > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  position: relative;
+  right: -95px;
+  letter-spacing: -0.0676923px;
+  color: #10f126;
 }
 
 /********  TASK ITEM ******/

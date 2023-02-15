@@ -9,15 +9,15 @@ const SignUp = () => {
   return (
     <>
       <div className="clouds">
-        <img src={checkbox} alt="checkbox" className="checkbox" />
-        <img src={cloud} alt="cloud" className="cloud" />
+        <img src={checkbox} alt="checkbox" className="checkbox1" />
+        <img src={cloud} alt="cloud" className="cloud1" />
         <p>
           Todo<span>List</span>
         </p>
       </div>
       <div className="sign-up sign-in">
         <h1>Sign in</h1>
-        <ul className="container">
+        <ul>
           <li>
             <img src={google} alt="google" />
             <p>Continue with Google</p>
