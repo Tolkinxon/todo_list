@@ -3,6 +3,8 @@ import '../styles/NewTodoSection.css'
 import bottomSvg from '../images/send/Vector (4).svg'
 import middleSvg from '../images/send/Vector (5).svg'
 import topSvg from '../images/send/Vector (6).svg'
+import Navbar from '../components/Navbar'
+
 
 const NewTodoSection = () => {
   return (
@@ -21,15 +23,14 @@ const NewTodoSection = () => {
 
 
       <div className="post-text">
-        <div className="navbar">
+        <Navbar/>
           <div className="wrapper">
             <h4>This is very usefull</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque pariatur modi totam et delectus. Aut quo reprehenderit, itaque, rem iste soluta quos numquam neque sunt nam vitae voluptas maxime illum.
             </p>
           </div>
-        </div>
       </div>
-      
+
     </div>
   )
 }

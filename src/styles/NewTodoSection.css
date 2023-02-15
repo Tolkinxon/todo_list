@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 /******** ABOVE SIDE *******/
 .new-todo-section {
   width: 100%;
@@ -69,9 +68,53 @@
 /******** ABOVE SIDE *******/
 
 /******** BELOW SIDE *******/
+.post-text {
+  margin-top: 20px;
+  border-radius: 5px;
+  height: 435px;
+  width: 100%;
+  background: #fff;
+  -webkit-box-shadow: 1px 1px 9px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 1px 1px 9px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 1px 1px 9px 0px rgba(34, 60, 80, 0.2);
+}
 
+.navbar {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar > div {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0px 20px 10px;
+}
+.navbar > div > img {
+  width: 30px;
+  font-weight: 500;
+}
+
+.navbar > div {
+  position: relative;
+}
+.navbar > div:nth-child(1) {
+  padding: 20px 0px 20px 21.5px;
+}
+
+.navbar > div:nth-child(2) {
+  right: 110px;
+}
+.navbar > div:nth-child(3) {
+  right: 210px;
+}
+
+.navbar > div:nth-child(4) {
+  padding: 20px 21.5px 20px 0px;
+}
 
 /******** BELOW SIDE *******/
-
-
-
