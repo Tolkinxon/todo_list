@@ -125,7 +125,7 @@ body {
   align-items: center;
 }
 .or div {
-  border-top: 1px solid #24272c;
+  border-top: 1px solid #75838E;
   width: 45%;
 }
 .or span {
@@ -152,6 +152,11 @@ body {
 .email.in,
 .btn.in {
   margin-bottom: 12px;
+}
+
+.btn.in {
+  position: relative;
+  top: -15px;
 }
 
 .email {
@@ -191,8 +196,20 @@ body {
   margin-bottom: 4px;
 }
 
+.eye1,
+.eye2 {
+  position: relative;
+  bottom: 40px;
+  left: 440px;
+}
+
+.eye1 {
+  bottom: 43.5px;
+  left: 453px;
+}
+
 .line {
-  border-top: 1px solid black;
+  border-top: 1px solid #75838e;
   margin: 31px auto;
 }
 
@@ -208,9 +225,9 @@ body {
   text-align: center;
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
 
-  color: #75838e;
+  color: grey;
 }
 
 .paragraphs span {

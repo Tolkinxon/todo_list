@@ -4,6 +4,8 @@ import facebook from '../images/facebook 1.svg'
 import apple from '../images/apple 1.svg'
 import cloud from '../images/Vector (1).svg'
 import checkbox from '../images/Vector (2).svg'
+import eye1 from '../images/eye1.svg'
+import eye2 from '../images/eye2.svg'
 
 const SignUp = () => {
   return (
@@ -49,6 +51,10 @@ const SignUp = () => {
             className="email in password"
             placeholder="Enter your password"
           />
+
+          <img src={eye1} alt="eye1" className='eye1' />
+          <img src={eye2} alt="eye2"  className='eye2'/>
+
           <button className="btn in">Sign in</button>
           <p>Forgot your password?</p>
           <div className="line"></div>
