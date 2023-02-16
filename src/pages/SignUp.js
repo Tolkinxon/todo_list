@@ -54,7 +54,9 @@ const SignUp = () => {
             Already signed up?{' '}
             <span>
               {' '}
-              <Link to={'/signin'}>Go to sign in </Link>
+              <Link to={'/signin'} className="link2">
+                Go to sign in{' '}
+              </Link>
             </span>
           </p>
         </div>
