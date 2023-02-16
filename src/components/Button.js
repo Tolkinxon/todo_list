@@ -3,38 +3,45 @@ import styled from 'styled-components'
 import check from '../images/check.svg'
 import refuce from '../images/refuce.svg'
 
-export const StyledButton = styled.button`
+export const StyledButton = styled.div`
   width: 77px;
   height: 17px;
   background-color: ${({ variant }) =>
     variant === `refuce` ? `#F11010` : `#10f126`};
   border: 2px solid
     ${({ variant }) => (variant === `refuce` ? `#F11010` : `#10f126`)};
-  opacity: 0.4;
+  opacity: 0.2;
   border-radius: 8.5px;
-  color: black;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  &:hover {
+    opacity: 0.5;
+  }
 `
 
-export const styledP = styled.p`
-    color:#10f126;
-
+export const Ptag = styled.p`
+  position: relative;
+  left: 92px;
+  font-size: 12px;
+  color: ${({ variant }) => (variant === `refuce` ? `#F11010` : `#10f126`)};
+  opacity: 1;
 `
 
 const Button = ({ type = 'succes' }) => {
   return (
     <>
-      {type === 'refuce' ? (<>
-        <img src={refuce} alt="check" />
-
-        <StyledButton variant="refuce"></StyledButton>
+      {type === 'refuce' ? (
+        <>
+          <img src={refuce} alt="check" className="img-tag" />
+          <Ptag variant="refuce">refuce</Ptag>
+          <StyledButton variant="refuce" />
         </>
       ) : (
         <>
-          <styledP>succes</styledP>
-          <img src={check} alt="check" />
+          <img src={check} alt="check" className="img-tag" />
+          <Ptag>succes</Ptag>
           <StyledButton />
         </>
       )}

@@ -16,13 +16,14 @@ const TaskList = ({ id }) => {
         data={`hello world ana al   tur sit  is vellptatum eos expedit aspernatur sit  is vell`}
       />
       <TaskItem
+        type={'refuce'}
         data={`hello world ana al    Lorem ipsum dolor sit amet consectetur adipisicing elit. nderit dolore, magnam idtur sit  is vellptatum eos expedit aspernatur sit  is vell`}
       />
       <TaskItem data={`hello wa aspernatur sit  is vell`} />
       <TaskItem
         data={`helello world ana al    Lorem ipsum dolor sit amet consectetur adipisicing elit. nderit dolore, magnam id voluptatum eos expedita aspernatur sit  is velllo world ana al    Lorem ipsumna al    Lorem ipsum dolor sit amet consectetur adipisicing elit. nderit dolore, magnam id voluptatum eos expedita aspernatur sit  is velllo world ana al    Lorem ipsu dolor sit ame aspernatur sit  is vell`}
       />
-      <TaskItem data={`hello wa aspernatur sit  is vell`} />
+      <TaskItem data={`hello wa aspernatur sit  is vell`} type={'refuce'} />
       <TaskItem
         data={`hello world ana al    Lorem ipsum dolor sit amet consectetur adipisicing elit. nderit dolore, magnam id voluello world ana al    Lorem ipsum dolor sit amet consectetur adipisicing elit. nderit dolore, magnam id voluptatull`}
       />

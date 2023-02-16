@@ -5,7 +5,7 @@ import { StyledButton } from './Button'
 import Button from './Button'
 import checking from '../images/check.svg'
 
-const TaskItem = ({ data }) => {
+const TaskItem = ({ data, type}) => {
   return (
     <div className="task-item">
       <div className="img-content">
@@ -23,7 +23,7 @@ const TaskItem = ({ data }) => {
           Explanation: <span className="numbers"> 02.07.2022 14:00PM</span>
         </span>
 
-        <Button type={'refuce'} />
+        <Button type={type} />
       </div>
     </div>
   )
