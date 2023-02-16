@@ -249,6 +249,14 @@ body {
   color: black;
   font-family: 'Poppins';
   text-decoration: none;
+  cursor: pointer;
+}
+
+.link2{
+  text-decoration: none;
+  cursor: pointer;
+
+
 }
 
 .link:hover {
