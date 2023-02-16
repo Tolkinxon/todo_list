@@ -242,3 +242,17 @@ body {
 }
 
 /****** SIGN UP *****/
+/* LINK */
+.link {
+  font-size: 17px;
+  display: block;
+  color: black;
+  font-family: 'Poppins';
+  text-decoration: none;
+}
+
+.link:hover {
+  color: green;
+}
+
+/* LINK */
