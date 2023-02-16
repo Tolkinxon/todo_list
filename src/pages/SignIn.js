@@ -6,7 +6,6 @@ import cloud from '../images/Vector (1).svg'
 import checkbox from '../images/Vector (2).svg'
 import eye1 from '../images/eye1.svg'
 import eye2 from '../images/eye2.svg'
-import { Link } from 'react-router-dom'
 
 const SignUp = () => {
   return (
@@ -53,14 +52,14 @@ const SignUp = () => {
             placeholder="Enter your password"
           />
 
-          <img src={eye1} alt="eye1" className='eye1' />
-          <img src={eye2} alt="eye2"  className='eye2'/>
+          <img src={eye1} alt="eye1" className="eye1" />
+          <img src={eye2} alt="eye2" className="eye2" />
 
           <button className="btn in">Sign in</button>
           <p>Forgot your password?</p>
           <div className="line"></div>
           <p className="lastP">
-            Don't have an account? <span><Link to={`/signup`} className='link2'> Sign up </Link></span>
+            Don't have an account? <span> Sign up</span>
           </p>
           <h4 className="last-p">Todolist Support</h4>
         </div>

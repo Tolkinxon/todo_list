@@ -4,7 +4,6 @@ import facebook from '../images/facebook 1.svg'
 import apple from '../images/apple 1.svg'
 import cloud from '../images/Vector (1).svg'
 import checkbox from '../images/Vector (2).svg'
-import { Link } from 'react-router-dom'
 
 const SignUp = () => {
   return (
@@ -51,13 +50,8 @@ const SignUp = () => {
           </p>
           <div className="line"></div>
           <p className="lastP">
-            Already signed up?{' '}
-            <span>
-              {' '}
-              <Link to={'/signin'} className="link2">
-                Go to sign in{' '}
-              </Link>
-            </span>
+            Already signed up?
+            <span> Go to sign in</span>
           </p>
         </div>
       </div>
